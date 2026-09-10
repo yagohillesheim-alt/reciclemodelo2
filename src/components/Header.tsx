@@ -2,6 +2,7 @@ import { Menu, X, Phone, Mail, MapPin } from "lucide-react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { CONFIG_EMPRESA } from "../config";
+import Logo from "./Logo";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,9 +19,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
-            <span className="text-2xl font-bold text-[#1D3A78]">
-              RECICLE<span className="text-[#9BC23B]">&</span>CIA
-            </span>
+            <Logo className="h-14 w-auto" />
           </div>
 
           {/* Desktop Navigation */}

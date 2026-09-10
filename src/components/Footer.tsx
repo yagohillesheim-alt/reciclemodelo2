@@ -1,5 +1,6 @@
 import { Instagram, Linkedin, Facebook, ArrowUp } from "lucide-react";
 import { CONFIG_EMPRESA } from "../config";
+import Logo from "./Logo";
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -11,8 +12,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 lg:col-span-1">
-            <div className="text-2xl font-bold mb-6">
-              RECICLE<span className="text-[#9BC23B]">&</span>CIA
+            <div className="mb-6 flex justify-start">
+              <Logo className="h-20 w-auto" variant="white" />
             </div>
             <p className="text-slate-400 mb-8 max-w-xs leading-relaxed">
               Líder em gestão de resíduos industriais e economia circular no Vale do São Francisco. Transformando o futuro através da reciclagem inteligente.
