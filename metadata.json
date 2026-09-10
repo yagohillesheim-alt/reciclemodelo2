@@ -1,0 +1,6 @@
+{
+  "name": "Recicle & Cia",
+  "description": "Soluções em economia circular, destinação ambiental responsável e reciclagem industrial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
